@@ -104,7 +104,7 @@ const CurrTemp = ({ element }) => {
             className="w-[200px] h-[200px] p-3 mr-10 bg-center"
             src={
               element.weather?.[0]?.icon
-                ? `../../public/assets/img/${element.weather[0].icon}.png`
+                ? `/assets/img/${element.weather[0].icon}.png`
                 : day
             }
             alt="Weather Icon"
